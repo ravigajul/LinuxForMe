@@ -1,5 +1,4 @@
 # LinuxForMe
-# LinuxForMe
     Echo $SHELL  result /bin/bash
 
 # Home Directory
