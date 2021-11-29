@@ -98,3 +98,6 @@
  export PATH = $PATH:/home/ravi
 # Find and replace all occurences in the file
 :s%/foo/bar/g  #replacing foo with bar globally.search and replace in entire file
+
+#user input
+read -p "Enter a value: " variable_name # this will prompt the user with the message to enter a value and is assigned to variable_name
