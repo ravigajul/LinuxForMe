@@ -96,4 +96,5 @@
  
  # Shell Scripting
  export PATH = $PATH:/home/ravi
-
+# Find and replace all occurences in the file
+:s%/foo/bar/g  #replacing foo with bar globally.search and replace in entire file
