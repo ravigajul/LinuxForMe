@@ -93,5 +93,7 @@
     System Reload
     Systemctl daemon-reload
     Systemctl start my_app
-
+ 
+ # Shell Scripting
+ export PATH = $PATH:/home/ravi
 
