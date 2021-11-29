@@ -95,9 +95,14 @@
     Systemctl start my_app
  
  # Shell Scripting
- export PATH = $PATH:/home/ravi
-# Find and replace all occurences in the file
-:s%/foo/bar/g  #replacing foo with bar globally.search and replace in entire file
+	 export PATH = $PATH:/home/ravi
+## Find and replace all occurences in the file
+	:s%/foo/bar/g  #replacing foo with bar globally.search and replace in entire file
 
-# user input
-read -p "Enter a value: " variable_name # this will prompt the user with the message to enter a value and is assigned to variable_name
+## user input
+	read -p "Enter a value: " variable_name # this will prompt the user with the message to enter a value and is assigned to variable_name
+
+## Arithmetic operations
+	echo expr $A + $B or
+	echo $((A+B))
+	echo $((A/B)) | bc -1 # to display the decimal values
