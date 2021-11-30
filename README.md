@@ -94,15 +94,33 @@
     Systemctl daemon-reload
     Systemctl start my_app
  
- # Shell Scripting
+ # 7. Shell Scripting
 	 export PATH = $PATH:/home/ravi
-## Find and replace all occurences in the file
+## 7.1 Find and replace all occurences in the file
 	:s%/foo/bar/g  #replacing foo with bar globally.search and replace in entire file
 
-## user input
+## 7.2 user input
 	read -p "Enter a value: " variable_name # this will prompt the user with the message to enter a value and is assigned to variable_name
 
-## Arithmetic operations
+## 7.3 Arithmetic operations
 	echo expr $A + $B or
 	echo $((A+B))
 	echo $((A/B)) | bc -1 # to display the decimal values
+## 7.4 Conditional Statement
+	if [ expression ] 
+	then
+		#some statements
+	elif
+	then
+		#some statements
+	else
+		#some statements
+	fi
+### 7.4.1 Operators
+	[ string1 = string2 ] //notice the spaces between all keywords
+	[ "abc" = "abc" ]  //string1 is equal to string 2
+	[ "abc" != "abc" ] //string1 is not equal to string2
+	[ 1 -eq 5 ] // if number1 is equal to number 5
+	[ 5 -ne 6 ] //if number5 is not equal to number 5
+	[ 5 -gt 7 ] //if number 5 is greater than number 7
+	[ 5 -lt 7 ] //if number 7 is less than number 7
