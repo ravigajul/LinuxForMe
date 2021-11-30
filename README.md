@@ -124,6 +124,7 @@
 	[ 5 -ne 6 ]           # if number5 is not equal to number 5
 	[ 5 -gt 7 ]           # if number 5 is greater than number 7
 	[ 5 -lt 7 ]           # if number 7 is less than number 7
+	[ -z $num ]           # check if num is passed as an argument while calling 
 ### 7.4.2 Logical Operators
 	[ expr1 ] && [ expr2 ]
 		or
