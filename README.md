@@ -132,3 +132,10 @@
 	[ expr1 ] || [ expr2 ] 
 		or
 	[[ expr1 || expr2 ]
+### 7.4.3 directory exists
+	if [ -d "/home/rgajul/mydir" ]
+	then
+  		echo "Directory exists"
+	else
+  		echo "Directory not found"
+	fi
