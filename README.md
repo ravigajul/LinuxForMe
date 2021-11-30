@@ -139,3 +139,9 @@
 	else
   		echo "Directory not found"
 	fi
+### 7.4.4 file system
+	[ -e FILE ] # if file exists
+	[ -d FILE ] # if directory exists
+	[ -x FILE ] # if file is executable
+	[ -w FILE ] # if file is writable
+	[ -s FILE ] # if the file exists and the size is > 0
