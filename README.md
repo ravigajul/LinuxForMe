@@ -117,13 +117,13 @@
 		#some statements
 	fi
 ### 7.4.1 Operators
-	[ string1 = string2 ] //notice the spaces between all keywords
-	[ "abc" = "abc" ]  //string1 is equal to string 2
-	[ "abc" != "abc" ] //string1 is not equal to string2
-	[ 1 -eq 5 ] // if number1 is equal to number 5
-	[ 5 -ne 6 ] //if number5 is not equal to number 5
-	[ 5 -gt 7 ] //if number 5 is greater than number 7
-	[ 5 -lt 7 ] //if number 7 is less than number 7
+	[ string1 = string2 ] # notice the spaces between all keywords
+	[ "abc" = "abc" ]     # string1 is equal to string 2
+	[ "abc" != "abc" ]    # string1 is not equal to string2
+	[ 1 -eq 5 ]	      # if number1 is equal to number 5
+	[ 5 -ne 6 ]           # if number5 is not equal to number 5
+	[ 5 -gt 7 ]           # if number 5 is greater than number 7
+	[ 5 -lt 7 ]           # if number 7 is less than number 7
 ### 7.4.2 Logical Operators
 	[ expr1 ] && [ expr2 ]
 		or
