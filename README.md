@@ -146,3 +146,22 @@
 	[ -x FILE ] # if file is executable
 	[ -w FILE ] # if file is writable
 	[ -s FILE ] # if the file exists and the size is > 0
+# 7.5 For Loop
+	for num in 1 2 3 4 5
+	do
+		echo $num
+	done
+	
+		or
+
+	for num in {0..100}
+	do 
+		echo $num
+	done
+	
+		or
+		
+	for num in $(cat num.txt)
+	do
+		echo $num
+	done
