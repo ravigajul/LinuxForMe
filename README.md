@@ -221,5 +221,12 @@
 		echo $(($1 + $2))
 	}
 	addition 20 5
+	
+		or
+	function addition(){
+		echo $(($1 + $2))
+	}
+	sum=$( addition 20 5)
+	echo $sum
 # References
 	https://kodekloud.com/
