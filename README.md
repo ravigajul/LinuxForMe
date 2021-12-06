@@ -165,3 +165,23 @@
 	do
 		echo $num
 	done
+# 7.6 While
+	while true
+	do 
+		echo "1. Start"
+		echo "2. restart"
+		echo "3. stop
+		read -p "Enter your choice: " choice
+		if [ $choice -eq 1 ]
+		then
+			start 
+		elif [ $choice -eq 2 ]
+		then 
+			restart
+		elif [ $choice -eq 3 ]
+		then
+			break;
+		else
+			continue
+		fi
+	done
