@@ -217,12 +217,13 @@
 	1 or > 0 - Failure
 	echo $? # this returns the exit code of a command.Scope of this value is only until its retrieved.
 # 11 Functions
+## 11.1 calling a function
 	function addition(){
 		echo $(($1 + $2))
 	}
 	addition 20 5
 	
-		or
+## 11.2 retreiving the return value of a function
 	function addition(){
 		echo $(($1 + $2))
 	}
