@@ -212,5 +212,10 @@
 	done
 # 9 SHEBANG
 	#!/bin/bash # instruction in the first line of script to tell other users which shell the script would work on.Add The shebang line on the top of the script so that 	     even if the script is run from other unsupported shells(sh,dash,etc), it uses the /bin/bash interpreter
+# 10 Exit Code
+	0 - Success
+	1 or > 0 - Failure
+	echo $? # this returns the exit code of a command.Scope of this value is only until its retrieved.
+	
 # References
 	https://kodekloud.com/
