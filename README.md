@@ -196,7 +196,7 @@
 		echo "2. restart"
 		echo "3. stop
 		read -p "Enter your choice: " choice
-		case #choice in
+		case $choice in
 		   1) start;;
 		   2) restart;;
 		   3) break;;
