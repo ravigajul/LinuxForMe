@@ -210,3 +210,5 @@
 		   *) continue;;
 		esac
 	done
+# 9 SHEBANG
+#!/bin/bash # instruction in the first line of script to tell other users which shell the script would work on.
