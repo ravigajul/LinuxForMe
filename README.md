@@ -189,3 +189,17 @@
 			continue
 		fi
 	done
+# 8 Case Statement
+	while true
+	do 
+		echo "1. Start"
+		echo "2. restart"
+		echo "3. stop
+		read -p "Enter your choice: " choice
+		case #choice in
+		   1) start;;
+		   2) restart;;
+		   3) break;;
+		   *) continue;;
+		esac
+	done
