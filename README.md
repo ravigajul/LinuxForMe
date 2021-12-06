@@ -32,16 +32,20 @@
 #  6. Vi Editor
     Command Mode (Default/ESC)
     Insert Mode(i)
-## 1. Commands
+## 6.1. Commands
 	1. Move Around use arrow keys
 	2.  Delete a character -X
 	3.  dd - deletes entire line
 	4.  yy - copy a line 
 	5.  p - paste
+		1. exit insert mode
+		2. Go to the line that you want to copy and yy
+		3. Go to the line where you want to copy and bp
+		4. To copy multiple 3 line 3yy and bp
 	6. CTRL+U/D - scroll up/down
 	7. :wq! //write save and exit
 	8.  :q! //quit
-## 2. Find
+## 6.2 . Find
 	1. /of   //highlights all occurrences of 'of' and cursor is positioned at first occurrence. To move to next occurrence press n key and again n for other occurrences.
 # 7. UserAccounts
 	1. Whoami  //to find the user logged in
