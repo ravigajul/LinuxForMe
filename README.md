@@ -197,8 +197,15 @@
 		echo "3. stop
 		read -p "Enter your choice: " choice
 		case $choice in
-		   1) start;;
-		   2) restart;;
+		   1) 
+		   line 1 ....start
+		   line 2 ......
+		   line 3........
+		   ;;
+		   2)
+		   line 1 ........
+		   line 2 ........
+		   ;;
 		   3) break;;
 		   *) continue;;
 		esac
