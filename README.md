@@ -216,6 +216,10 @@
 	0 - Success
 	1 or > 0 - Failure
 	echo $? # this returns the exit code of a command.Scope of this value is only until its retrieved.
-	
+# 11 Functions
+	function addition(){
+		echo $(($1 + $2))
+	}
+	addition 20 5
 # References
 	https://kodekloud.com/
