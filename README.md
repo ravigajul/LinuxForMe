@@ -229,6 +229,10 @@
 	}
 	sum=$( addition 20 5)
 	echo $sum
+## 11.3 Append text to existing file
+	echo "ravi" >> names.txt 
+## 11.4 Overwriting the existing text
+	echo "ravi" > names.txt
 # References
 	https://kodekloud.com/
 	https://google.github.io/styleguide/
